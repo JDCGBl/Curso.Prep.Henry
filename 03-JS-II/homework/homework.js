@@ -217,11 +217,14 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let arrayTablaDel6 = []
-  for (let i = 1; i < 10; i++) {
-        arrayTablaDel6.push(5 * i)
+  var a = numero;
+  var i = 0;
+  do {
+    i = i + 1;
+    a = a + 5;
   }
-  return arrayTablaDel6 [8]
+  while(i < 8);
+  return a;
 }
 
 
